@@ -642,3 +642,77 @@ pub mod nalgebra_attr_impl {
     implement_attribute!(Rot3<f64> => AttributeType::F64x3x3);
     implement_attribute!(Rot4<f64> => AttributeType::F64x4x4);
 }
+
+#[cfg(feature = "cgmath")]
+pub mod cgmath_attr_impl {
+    use vertex::Attribute;
+    use super::AttributeType;
+
+    use cgmath::{Point2, Point3};
+    use cgmath::{Vector2, Vector3, Vector4};
+    use cgmath::{Matrix2, Matrix3, Matrix4};
+
+    implement_attribute!(Point2<i8> => AttributeType::I8I8);
+    implement_attribute!(Point3<i8> => AttributeType::I8I8I8);
+
+    implement_attribute!(Point2<u8> => AttributeType::U8U8);
+    implement_attribute!(Point3<u8> => AttributeType::U8U8U8);
+
+    implement_attribute!(Point2<i16> => AttributeType::I16I16);
+    implement_attribute!(Point3<i16> => AttributeType::I16I16I16);
+
+    implement_attribute!(Point2<u16> => AttributeType::U16U16);
+    implement_attribute!(Point3<u16> => AttributeType::U16U16U16);
+
+    implement_attribute!(Point2<i32> => AttributeType::I32I32);
+    implement_attribute!(Point3<i32> => AttributeType::I32I32I32);
+
+    implement_attribute!(Point2<u32> => AttributeType::U32U32);
+    implement_attribute!(Point3<u32> => AttributeType::U32U32U32);
+
+    implement_attribute!(Point2<f32> => AttributeType::F32F32);
+    implement_attribute!(Point3<f32> => AttributeType::F32F32F32);
+
+    implement_attribute!(Point2<f64> => AttributeType::F64F64);
+    implement_attribute!(Point3<f64> => AttributeType::F64F64F64);
+
+    implement_attribute!(Vector2<i8> => AttributeType::I8I8);
+    implement_attribute!(Vector3<i8> => AttributeType::I8I8I8);
+    implement_attribute!(Vector4<i8> => AttributeType::I8I8I8I8);
+
+    implement_attribute!(Vector2<u8> => AttributeType::U8U8);
+    implement_attribute!(Vector3<u8> => AttributeType::U8U8U8);
+    implement_attribute!(Vector4<u8> => AttributeType::U8U8U8U8);
+
+    implement_attribute!(Vector2<i16> => AttributeType::I16I16);
+    implement_attribute!(Vector3<i16> => AttributeType::I16I16I16);
+    implement_attribute!(Vector4<i16> => AttributeType::I16I16I16I16);
+
+    implement_attribute!(Vector2<u16> => AttributeType::U16U16);
+    implement_attribute!(Vector3<u16> => AttributeType::U16U16U16);
+    implement_attribute!(Vector4<u16> => AttributeType::U16U16U16U16);
+
+    implement_attribute!(Vector2<i32> => AttributeType::I32I32);
+    implement_attribute!(Vector3<i32> => AttributeType::I32I32I32);
+    implement_attribute!(Vector4<i32> => AttributeType::I32I32I32I32);
+
+    implement_attribute!(Vector2<u32> => AttributeType::U32U32);
+    implement_attribute!(Vector3<u32> => AttributeType::U32U32U32);
+    implement_attribute!(Vector4<u32> => AttributeType::U32U32U32U32);
+
+    implement_attribute!(Vector2<f32> => AttributeType::F32F32);
+    implement_attribute!(Vector3<f32> => AttributeType::F32F32F32);
+    implement_attribute!(Vector4<f32> => AttributeType::F32F32F32F32);
+
+    implement_attribute!(Vector2<f64> => AttributeType::F64F64);
+    implement_attribute!(Vector3<f64> => AttributeType::F64F64F64);
+    implement_attribute!(Vector4<f64> => AttributeType::F64F64F64F64);
+
+    implement_attribute!(Matrix2<f32> => AttributeType::F32x2x2);
+    implement_attribute!(Matrix3<f32> => AttributeType::F32x3x3);
+    implement_attribute!(Matrix4<f32> => AttributeType::F32x4x4);
+
+    implement_attribute!(Matrix2<f64> => AttributeType::F64x2x2);
+    implement_attribute!(Matrix3<f64> => AttributeType::F64x3x3);
+    implement_attribute!(Matrix4<f64> => AttributeType::F64x4x4);
+}
