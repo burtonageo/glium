@@ -543,102 +543,102 @@ pub mod nalgebra_attr_impl {
     use nalgebra::{Mat1, Mat2, Mat3, Mat4};
     use nalgebra::{Quat, Rot2, Rot3, Rot4};
 
-    implement_attribute!(Pnt1<i8> => AttributeType::I8)
-    implement_attribute!(Pnt2<i8> => AttributeType::I8I8)
-    implement_attribute!(Pnt3<i8> => AttributeType::I8I8I8)
+    implement_attribute!(Pnt1<i8> => AttributeType::I8);
+    implement_attribute!(Pnt2<i8> => AttributeType::I8I8);
+    implement_attribute!(Pnt3<i8> => AttributeType::I8I8I8);
 
-    implement_attribute!(Pnt1<u8> => AttributeType::U8)
-    implement_attribute!(Pnt2<u8> => AttributeType::U8U8)
-    implement_attribute!(Pnt3<u8> => AttributeType::U8U8U8)
+    implement_attribute!(Pnt1<u8> => AttributeType::U8);
+    implement_attribute!(Pnt2<u8> => AttributeType::U8U8);
+    implement_attribute!(Pnt3<u8> => AttributeType::U8U8U8);
 
-    implement_attribute!(Pnt1<i16> => AttributeType::I16)
-    implement_attribute!(Pnt2<i16> => AttributeType::I16I16)
-    implement_attribute!(Pnt3<i16> => AttributeType::I16I16I16)
+    implement_attribute!(Pnt1<i16> => AttributeType::I16);
+    implement_attribute!(Pnt2<i16> => AttributeType::I16I16);
+    implement_attribute!(Pnt3<i16> => AttributeType::I16I16I16);
 
-    implement_attribute!(Pnt1<u16> => AttributeType::U16)
-    implement_attribute!(Pnt2<u16> => AttributeType::U16U16)
-    implement_attribute!(Pnt3<u16> => AttributeType::U16U16U16)
+    implement_attribute!(Pnt1<u16> => AttributeType::U16);
+    implement_attribute!(Pnt2<u16> => AttributeType::U16U16);
+    implement_attribute!(Pnt3<u16> => AttributeType::U16U16U16);
 
-    implement_attribute!(Pnt1<i32> => AttributeType::I32)
-    implement_attribute!(Pnt2<i32> => AttributeType::I32I32)
-    implement_attribute!(Pnt3<i32> => AttributeType::I32I32I32)
+    implement_attribute!(Pnt1<i32> => AttributeType::I32);
+    implement_attribute!(Pnt2<i32> => AttributeType::I32I32);
+    implement_attribute!(Pnt3<i32> => AttributeType::I32I32I32);
 
-    implement_attribute!(Pnt1<u32> => AttributeType::U32)
-    implement_attribute!(Pnt2<u32> => AttributeType::U32U32)
-    implement_attribute!(Pnt3<u32> => AttributeType::U32U32U32)
+    implement_attribute!(Pnt1<u32> => AttributeType::U32);
+    implement_attribute!(Pnt2<u32> => AttributeType::U32U32);
+    implement_attribute!(Pnt3<u32> => AttributeType::U32U32U32);
 
-    implement_attribute!(Pnt1<f32> => AttributeType::F32)
-    implement_attribute!(Pnt2<f32> => AttributeType::F32F32)
-    implement_attribute!(Pnt3<f32> => AttributeType::F32F32F32)
+    implement_attribute!(Pnt1<f32> => AttributeType::F32);
+    implement_attribute!(Pnt2<f32> => AttributeType::F32F32);
+    implement_attribute!(Pnt3<f32> => AttributeType::F32F32F32);
 
-    implement_attribute!(Pnt1<f64> => AttributeType::F64)
-    implement_attribute!(Pnt2<f64> => AttributeType::F64F64)
-    implement_attribute!(Pnt3<f64> => AttributeType::F64F64F64)
+    implement_attribute!(Pnt1<f64> => AttributeType::F64);
+    implement_attribute!(Pnt2<f64> => AttributeType::F64F64);
+    implement_attribute!(Pnt3<f64> => AttributeType::F64F64F64);
 
-    implement_attribute!(Vec1<i8> => AttributeType::I8)
-    implement_attribute!(Vec2<i8> => AttributeType::I8I8)
-    implement_attribute!(Vec3<i8> => AttributeType::I8I8I8)
-    implement_attribute!(Vec4<i8> => AttributeType::I8I8I8I8)
+    implement_attribute!(Vec1<i8> => AttributeType::I8);
+    implement_attribute!(Vec2<i8> => AttributeType::I8I8);
+    implement_attribute!(Vec3<i8> => AttributeType::I8I8I8);
+    implement_attribute!(Vec4<i8> => AttributeType::I8I8I8I8);
 
-    implement_attribute!(Vec1<u8> => AttributeType::U8)
-    implement_attribute!(Vec2<u8> => AttributeType::U8U8)
-    implement_attribute!(Vec3<u8> => AttributeType::U8U8U8)
-    implement_attribute!(Vec4<u8> => AttributeType::U8U8U8U8)
+    implement_attribute!(Vec1<u8> => AttributeType::U8);
+    implement_attribute!(Vec2<u8> => AttributeType::U8U8);
+    implement_attribute!(Vec3<u8> => AttributeType::U8U8U8);
+    implement_attribute!(Vec4<u8> => AttributeType::U8U8U8U8);
 
-    implement_attribute!(Vec1<i16> => AttributeType::I16)
-    implement_attribute!(Vec2<i16> => AttributeType::I16I16)
-    implement_attribute!(Vec3<i16> => AttributeType::I16I16I16)
-    implement_attribute!(Vec4<i16> => AttributeType::I16I16I16I16)
+    implement_attribute!(Vec1<i16> => AttributeType::I16);
+    implement_attribute!(Vec2<i16> => AttributeType::I16I16);
+    implement_attribute!(Vec3<i16> => AttributeType::I16I16I16);
+    implement_attribute!(Vec4<i16> => AttributeType::I16I16I16I16);
 
-    implement_attribute!(Vec1<u16> => AttributeType::U16)
-    implement_attribute!(Vec2<u16> => AttributeType::U16U16)
-    implement_attribute!(Vec3<u16> => AttributeType::U16U16U16)
-    implement_attribute!(Vec4<u16> => AttributeType::U16U16U16U16)
+    implement_attribute!(Vec1<u16> => AttributeType::U16);
+    implement_attribute!(Vec2<u16> => AttributeType::U16U16);
+    implement_attribute!(Vec3<u16> => AttributeType::U16U16U16);
+    implement_attribute!(Vec4<u16> => AttributeType::U16U16U16U16);
 
-    implement_attribute!(Vec1<i32> => AttributeType::I32)
-    implement_attribute!(Vec2<i32> => AttributeType::I32I32)
-    implement_attribute!(Vec3<i32> => AttributeType::I32I32I32)
-    implement_attribute!(Vec4<i32> => AttributeType::I32I32I32I32)
+    implement_attribute!(Vec1<i32> => AttributeType::I32);
+    implement_attribute!(Vec2<i32> => AttributeType::I32I32);
+    implement_attribute!(Vec3<i32> => AttributeType::I32I32I32);
+    implement_attribute!(Vec4<i32> => AttributeType::I32I32I32I32);
 
-    implement_attribute!(Vec1<u32> => AttributeType::U32)
-    implement_attribute!(Vec2<u32> => AttributeType::U32U32)
-    implement_attribute!(Vec3<u32> => AttributeType::U32U32U32)
-    implement_attribute!(Vec4<u32> => AttributeType::U32U32U32U32)
+    implement_attribute!(Vec1<u32> => AttributeType::U32);
+    implement_attribute!(Vec2<u32> => AttributeType::U32U32);
+    implement_attribute!(Vec3<u32> => AttributeType::U32U32U32);
+    implement_attribute!(Vec4<u32> => AttributeType::U32U32U32U32);
 
-    implement_attribute!(Vec1<f32> => AttributeType::F32)
-    implement_attribute!(Vec2<f32> => AttributeType::F32F32)
-    implement_attribute!(Vec3<f32> => AttributeType::F32F32F32)
-    implement_attribute!(Vec4<f32> => AttributeType::F32F32F32F32)
+    implement_attribute!(Vec1<f32> => AttributeType::F32);
+    implement_attribute!(Vec2<f32> => AttributeType::F32F32);
+    implement_attribute!(Vec3<f32> => AttributeType::F32F32F32);
+    implement_attribute!(Vec4<f32> => AttributeType::F32F32F32F32);
 
-    implement_attribute!(Vec1<f64> => AttributeType::F64)
-    implement_attribute!(Vec2<f64> => AttributeType::F64F64)
-    implement_attribute!(Vec3<f64> => AttributeType::F64F64F64)
-    implement_attribute!(Vec4<f64> => AttributeType::F64F64F64F64)
+    implement_attribute!(Vec1<f64> => AttributeType::F64);
+    implement_attribute!(Vec2<f64> => AttributeType::F64F64);
+    implement_attribute!(Vec3<f64> => AttributeType::F64F64F64);
+    implement_attribute!(Vec4<f64> => AttributeType::F64F64F64F64);
 
-    implement_attribute!(Mat1<f32> => AttributeType::F32)
-    implement_attribute!(Mat2<f32> => AttributeType::F32x2x2)
-    implement_attribute!(Mat3<f32> => AttributeType::F32x3x3)
-    implement_attribute!(Mat4<f32> => AttributeType::F32x4x4)
+    implement_attribute!(Mat1<f32> => AttributeType::F32);
+    implement_attribute!(Mat2<f32> => AttributeType::F32x2x2);
+    implement_attribute!(Mat3<f32> => AttributeType::F32x3x3);
+    implement_attribute!(Mat4<f32> => AttributeType::F32x4x4);
 
-    implement_attribute!(Mat1<f64> => AttributeType::F64)
-    implement_attribute!(Mat2<f64> => AttributeType::F64x2x2)
-    implement_attribute!(Mat3<f64> => AttributeType::F64x3x3)
-    implement_attribute!(Mat4<f64> => AttributeType::F64x4x4)
+    implement_attribute!(Mat1<f64> => AttributeType::F64);
+    implement_attribute!(Mat2<f64> => AttributeType::F64x2x2);
+    implement_attribute!(Mat3<f64> => AttributeType::F64x3x3);
+    implement_attribute!(Mat4<f64> => AttributeType::F64x4x4);
 
-    implement_attribute!(Quat<i8>  => AttributeType::I8I8I8I8)
-    implement_attribute!(Quat<u8>  => AttributeType::U8U8U8U8)
-    implement_attribute!(Quat<i16> => AttributeType::I16I16I16I16)
-    implement_attribute!(Quat<u16> => AttributeType::U16U16U16U16)
-    implement_attribute!(Quat<i32> => AttributeType::I32I32I32I32)
-    implement_attribute!(Quat<u32> => AttributeType::U32U32U32U32)
-    implement_attribute!(Quat<f32> => AttributeType::F32F32F32F32)
-    implement_attribute!(Quat<f64> => AttributeType::F64F64F64F64)
+    implement_attribute!(Quat<i8>  => AttributeType::I8I8I8I8);
+    implement_attribute!(Quat<u8>  => AttributeType::U8U8U8U8);
+    implement_attribute!(Quat<i16> => AttributeType::I16I16I16I16);
+    implement_attribute!(Quat<u16> => AttributeType::U16U16U16U16);
+    implement_attribute!(Quat<i32> => AttributeType::I32I32I32I32);
+    implement_attribute!(Quat<u32> => AttributeType::U32U32U32U32);
+    implement_attribute!(Quat<f32> => AttributeType::F32F32F32F32);
+    implement_attribute!(Quat<f64> => AttributeType::F64F64F64F64);
 
-    implement_attribute!(Rot2<f32> => AttributeType::F32x2x2)
-    implement_attribute!(Rot3<f32> => AttributeType::F32x3x3)
-    implement_attribute!(Rot4<f32> => AttributeType::F32x4x4)
+    implement_attribute!(Rot2<f32> => AttributeType::F32x2x2);
+    implement_attribute!(Rot3<f32> => AttributeType::F32x3x3);
+    implement_attribute!(Rot4<f32> => AttributeType::F32x4x4);
 
-    implement_attribute!(Rot2<f64> => AttributeType::F64x2x2)
-    implement_attribute!(Rot3<f64> => AttributeType::F64x3x3)
-    implement_attribute!(Rot4<f64> => AttributeType::F64x4x4)
+    implement_attribute!(Rot2<f64> => AttributeType::F64x2x2);
+    implement_attribute!(Rot3<f64> => AttributeType::F64x3x3);
+    implement_attribute!(Rot4<f64> => AttributeType::F64x4x4);
 }
